@@ -1,0 +1,94 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+section.choice-grid {
+  
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+   
+  }
+  article h1{
+    color:rgb(255, 115, 0);
+    font-family: sans-serif;
+  }
+
+  
+  .choice-grid img{
+    width:100%;
+    
+
+  }
+  .choice-grid div{
+    width:32.5%;
+    box-sizing:border-box;
+    padding:10px;
+    background-color: #f4f4f4;
+    margin-bottom:20px;
+    border:1px solid#dcdcdc;
+    
+  }
+  
+
+ 
+
+  @media (max-width: 700px) {
+    header div {
+        display:none;
+    }
+    article{
+        width:95%;
+    }
+}
+.choice-grid .checked{
+    background-color: #69a3f5;
+}
+.choice-grid .unchecked{
+    opacity: 0.6;
+}
+img.checkbox{
+    justify-content: center;
+    width:100%;
+}
+ .fine{
+    margin-top:20px;
+    box-sizing: border-box;
+    padding:20px;
+    margin-bottom:20px;
+ }
+ .testo{
+    width:100%;
+    margin-bottom:15px;
+ }
+ .question-name h1 {
+    background-color: rgba(168, 0, 56, 0.261);
+    color: rgb(255, 255, 255);
+}
+
+ button{
+    height: 32px;
+    width: 100%;
+}
+.prima{
+    background-image: url('Foto DB/Sfondo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.seconda{
+    background-image: url('Foto DB/CapsuleCorp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.terza{
+    background-image: url('Foto DB/Cattivi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ 
+
+  
